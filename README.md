@@ -2,7 +2,7 @@
 
 **Simulation code and data for:**
 
-> Coordinative Structures as Scale-Free Networks: How Cascade and Percolation Dynamics Shape Motor Learning
+> Coordinative structures as scale-free networks: Cascade and percolation dynamics in motor learning with empirical validation
 
 Submitted to *PLOS Computational Biology*
 
