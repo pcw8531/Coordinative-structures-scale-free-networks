@@ -1,0 +1,14 @@
+source,target,weight,edge_type,note
+0,1,0.70,hub_to_peripheral,CM-Ankle (distal joint)
+0,2,0.70,hub_to_peripheral,CM-Knee (distal joint)
+0,3,0.85,hub_to_peripheral,CM-Hip (proximal joint)
+0,4,0.85,hub_to_peripheral,CM-Trunk (proximal joint)
+0,5,0.70,hub_to_peripheral,CM-Shoulder (distal joint)
+0,6,0.70,hub_to_peripheral,CM-Head (distal joint)
+0,7,0.95,hub_to_peripheral,CM-theta_CM (task variable)
+0,8,0.95,hub_to_peripheral,CM-omega_CM (task variable)
+1,2,0.35,peripheral_to_peripheral,Ankle-Knee
+2,3,0.35,peripheral_to_peripheral,Knee-Hip
+3,4,0.35,peripheral_to_peripheral,Hip-Trunk
+5,6,0.35,peripheral_to_peripheral,Shoulder-Head
+7,8,0.35,peripheral_to_peripheral,theta_CM-omega_CM
