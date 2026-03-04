@@ -1,0 +1,40 @@
+{
+    "source": "Liu Y-T, Mayer-Kress G, Newell KM (2006). Qualitative and quantitative change in the dynamics of motor learning. J Exp Psychol Hum Percept Perform. 32(2):380-393.",
+    "description": "Piecewise function parameters for three-phase motor learning curve with variability envelope. Normalized time t in [0, 1]; normalized performance in [0, 1].",
+    "phase_boundaries": {
+        "t_plateau_end": 0.22,
+        "t_stabilization_start": 0.35,
+        "phase_labels": ["plateau (freezing)", "bifurcation (freeing)", "stabilization (exploiting)"]
+    },
+    "performance_curve": {
+        "plateau": {
+            "range": "t < 0.22",
+            "formula": "0.08 + 0.12 * (1 - exp(-8 * t))",
+            "parameters": {"baseline": 0.08, "amplitude": 0.12, "rate": 8}
+        },
+        "bifurcation": {
+            "range": "0.22 <= t < 0.35",
+            "formula": "0.20 + 0.65 / (1 + exp(-35 * (t - 0.285)))",
+            "parameters": {"baseline": 0.20, "amplitude": 0.65, "steepness": 35, "midpoint": 0.285}
+        },
+        "stabilization": {
+            "range": "t >= 0.35",
+            "formula": "0.85 + 0.12 * (1 - exp(-4 * (t - 0.35)))",
+            "parameters": {"baseline": 0.85, "amplitude": 0.12, "rate": 4, "onset": 0.35}
+        }
+    },
+    "variability_envelope": {
+        "formula": "0.03 + 0.18 * exp(-0.5 * ((t - 0.27) / 0.04)^2) + 0.04 * exp(-0.5 * ((t - 0.10) / 0.06)^2)",
+        "parameters": {
+            "baseline_sd": 0.03,
+            "primary_peak": {"amplitude": 0.18, "center": 0.27, "width": 0.04},
+            "secondary_peak": {"amplitude": 0.04, "center": 0.10, "width": 0.06}
+        },
+        "note": "Primary CV peak at t=0.27 corresponds to the bifurcation zone; maps to chi_max at p_c in the percolation model."
+    },
+    "network_correspondence": {
+        "plateau_to_subcritical": "Performance floor; p < p_c; fragmented coordination network",
+        "bifurcation_to_critical": "Rapid sigmoid rise; p ~ p_c; giant component emerges; CV peak = chi_max",
+        "stabilization_to_supercritical": "Asymptotic refinement; p > p_c; consolidated network with preferential hub weighting"
+    }
+}
