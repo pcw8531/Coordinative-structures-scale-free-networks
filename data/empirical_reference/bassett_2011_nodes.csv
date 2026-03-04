@@ -1,0 +1,13 @@
+node_id,label,module,x_pos,y_pos
+0,M1,motor,-0.65,0.55
+1,SMA,motor,-0.85,0.20
+2,PMC,motor,-0.45,0.20
+3,PMd,motor,-0.65,-0.10
+4,S1,sensory,0.65,0.55
+5,SPL,sensory,0.85,0.20
+6,SMG,sensory,0.45,0.20
+7,Vis,sensory,0.65,-0.10
+8,PFC,cognitive,-0.25,-0.65
+9,ACC,cognitive,0.25,-0.65
+10,Ins,cognitive,0.00,-0.40
+11,BG,cognitive,0.00,-0.85
