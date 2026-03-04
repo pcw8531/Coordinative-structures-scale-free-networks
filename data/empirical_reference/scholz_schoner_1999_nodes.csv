@@ -1,0 +1,10 @@
+node_id,label,role,x_pos,y_pos
+0,CM,hub,0.00,0.05
+1,Ank,peripheral,-0.75,-0.50
+2,Kne,peripheral,-0.50,0.68
+3,Hip,peripheral,0.50,0.68
+4,Trk,peripheral,0.75,-0.50
+5,Shd,peripheral,-0.88,0.15
+6,Hd,peripheral,0.88,0.15
+7,theta-CM,peripheral,-0.35,-0.80
+8,omega-CM,peripheral,0.35,-0.80
