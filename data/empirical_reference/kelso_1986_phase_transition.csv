@@ -1,0 +1,9 @@
+frequency_hz,phi_anti_phase_deg,sd_anti_phase_deg,phi_in_phase_deg,sd_in_phase_deg,phase_region
+1.25,170,20,8,12,stable
+1.50,165,22,8,12,stable
+1.75,160,25,8,12,stable
+2.00,155,32,8,12,stable
+2.25,110,40,10,13,critical
+2.50,40,12,10,13,critical
+2.75,12,8,12,14,post_transition
+3.00,10,10,12,14,post_transition
