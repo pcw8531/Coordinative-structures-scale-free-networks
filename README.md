@@ -1,5 +1,7 @@
 # Coordinative Structures as Scale-Free Networks
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20694466.svg)](https://doi.org/10.5281/zenodo.20694466)
+
 **Simulation code and data for:**
 
 > Coordinative structures as scale-free networks: Cascade and percolation dynamics in motor learning with empirical validation
@@ -14,6 +16,8 @@ Submitted to *PLOS Computational Biology*
 - Complexity Science and Evolution, Okinawa Institute of Science and Technology (OIST), Okinawa, Japan
 
 **Contact:** pcw8531@snu.ac.kr
+
+**Archived version:** This release is permanently archived on Zenodo at <https://doi.org/10.5281/zenodo.20694466>
 
 ## Overview
 
@@ -178,12 +182,19 @@ The simulations demonstrate that scale-free (BA) networks uniquely reproduce pro
 
 ## Citation
 
-If you use this code or data, please cite:
+If you use this code or data, please cite the paper:
 
 ```
 Park C. Coordinative Structures as Scale-Free Networks: How Cascade
 and Percolation Dynamics Shape Motor Learning. PLOS Computational Biology.
 2026. [DOI to be added upon publication]
+```
+
+The archived code and data are independently citable via Zenodo:
+
+```
+Park C. Coordinative Structures as Scale-Free Networks (v1.0.0).
+Zenodo; 2026. https://doi.org/10.5281/zenodo.20694466
 ```
 
 ## License
